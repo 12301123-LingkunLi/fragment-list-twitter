@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">ListFragment Twitter Search</string>
-	<string name="searchURL">http://mobile.twitter.com/search/</string>
+	<string name="app_name">ListFragment Baidu Search</string>
+	<!--string name="searchURL">http://mobile.twitter.com/search/</string-->
+    <string name="searchURL">https://www.baidu.com/s?wd=</string>
 	<string name="tagPrompt">Tag your query</string>
-	<string name="queryPrompt">Enter Twitter search query here</string>
+	<string name="queryPrompt">Enter Baidu search query here</string>
 	<string name="taggedSearches">Tagged Searches</string>
 	<string name="saveDescription">Touch this button to save your tagged search</string>
 	<string name="shareEditDeleteTitle">Share, Edit or Delete the search tagged as \"%s\"</string>
@@ -12,12 +13,15 @@
       <item>Edit</item>
       <item>Delete</item>
    </string-array>
-   <string name="shareSubject">Twitter search that might interest you</string>
-   <string name="shareMessage">Check out the results of this Twitter search: %s</string>
+   <string name="shareSubject">Baidu search that might interest you</string>
+   <string name="shareMessage">Check out the results of this Baidu search: %s</string>
    <string name="shareSearch">Share Search to:</string>
    <string name="cancel">Cancel</string>
    <string name="OK">OK</string>
    <string name="confirmMessage">Are you sure you want to delete the search \"%s\"?</string>
    <string name="delete">Delete</string>
-	<string name="missingMessage">Enter both a Twitter search query and a tag</string>
+	<string name="missingMessage">Enter both a Baidu search query and a tag</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
